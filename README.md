@@ -1,4 +1,4 @@
-#Git, Github and Bash - Title for README
+# Git, Github and Bash - Title for README
 
 This repo covers the following concept tools:
 - Github
@@ -32,6 +32,8 @@ It can also create separate branches (or universes) to allow us to experiment.
 0) git init
 0) git status
 0) git logs
+0) git checkout
+0) git remote
 
 1) git add <file>
 2) git commit -m 'meaningful message'
