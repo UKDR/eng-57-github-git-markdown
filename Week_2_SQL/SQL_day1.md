@@ -2,6 +2,10 @@
 ## Monday 11/05/2020
 ### Lecture Notes
 
+- Primary key brings uniqueness
+- if primary keybrings more than one column is called the composite primary key
+- Candidate key has potential to be primary keys
+
 #####  Lesson Notes Page 1
 ![](assets/SQL_day1-1142f61e.jpg)
 
