@@ -9,6 +9,7 @@
 - Ctrl+L - Select the entire line
 - Tab or Enter - view and insert possible completions
 - Ctrl+Shift+L - pull up the Grammar Selector ( Default is "Plain Text")
+- Ctrl+Shift+P - activate git-plus (if you have it installed)
 
 ## Styling files
 
