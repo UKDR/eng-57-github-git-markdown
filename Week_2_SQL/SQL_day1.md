@@ -1,5 +1,6 @@
 # Week 2  SQL Day 1
 ## Monday 11/05/2020
+### Lecture Notes
 
 #####  Lesson Notes Page 1
 ![](assets/SQL_day1-1142f61e.jpg)
@@ -21,3 +22,37 @@
 
 #####  Lesson Notes Page 7
 ![](assets/SQL_day1-e2b79b03.jpg)
+
+### SQL Example
+
+The query shows the function to create table using the variables.
+
+![](assets/SQL_day1-2926463a.PNG)
+
+We use the INSERT INTO and VALUES to insert the values from the variable above.
+
+![](assets/SQL_day1-8c0e1a3f.PNG)
+
+Adding a column called film rating
+
+![](assets/SQL_day1-c816b496.PNG)
+
+Dropping the column film rating
+
+![](assets/SQL_day1-37e44029.PNG)
+
+This adds the variables of the table to the information provided from INSERT INTO and values.
+
+![](assets/SQL_day1-a37d6d18.PNG)
+
+We can use the command below to see the information from the table you have created.
+
+![](assets/SQL_day1-6595f973.PNG)
+
+The table displayed below appears when the command above is executed.
+
+![](assets/SQL_day1-9b95c718.PNG)
+
+The DROP TABLE function deletes the table
+
+![](assets/SQL_day1-bd7cbfec.PNG)
