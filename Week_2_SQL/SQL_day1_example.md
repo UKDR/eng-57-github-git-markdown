@@ -1,3 +1,7 @@
+# Week 2  SQL Day 1
+## Monday 11/05/2020
+### Practical Example
+
 
 ``` Bash
 
