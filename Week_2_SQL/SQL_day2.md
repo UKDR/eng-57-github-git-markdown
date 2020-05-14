@@ -11,12 +11,12 @@ NULL is not nothing but it does not equate to zero. It's an undefined value.
 
 But This works:
 
-``` Bash
+``` SQL
 WHERE something IS NULL
 ```
 Another way to use it is:
 
-``` Bash
+``` SQL
 NOT NULL DEAULT 5
 ```
 This means when the value is not null, the default variable becomes 5.
@@ -101,6 +101,8 @@ Split the table, so that only one primary key is dependent on the information in
 
 ![](assets/SQL_day2-7f7b1694.PNG)
 
+
+Check the file SQL_day2_example.md for new queries
 
 ####
 ####
