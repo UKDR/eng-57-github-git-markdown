@@ -1,3 +1,7 @@
+# Week 2  SQL Day 2
+## Tuesday 12/05/2020
+### Practical Example
+
 ``` SQL
 
 -- ALWAYS CHECK THE TABLE BEFORE WRITE THE QUERY
