@@ -1,7 +1,8 @@
-# Week 2  SQL Day 2
-## Tuesday 12/05/2020
+# Week 2  SQL Day 3
+## Wednesday 13/05/2020
 ### Lecture Notes
 
+##### MORE will be added soon
 
 #### Join
 
