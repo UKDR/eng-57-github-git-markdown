@@ -102,8 +102,25 @@ Split the table, so that only one primary key is dependent on the information in
 ![](assets/SQL_day2-7f7b1694.PNG)
 
 
-Check the file SQL_day2_example.md for new queries
 
-####
+### Queries Functions
+
+
+![](assets/SQL_day2-f63ca6ea.PNG)
+
+When naming using AS use " " Double Apostrophe
+
+There's a number of operators we can use
+
+![](assets/SQL_day2-fc5b00d1.PNG)
+
+wildcards
+![](assets/SQL_day2-979c8a7f.PNG)
+
+
+
+-------------------------------------------------------------
+
+##### Check the file SQL_day2_example.md for new queries
 ####
 ####
