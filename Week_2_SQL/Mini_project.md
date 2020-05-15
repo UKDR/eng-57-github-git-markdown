@@ -64,6 +64,14 @@ WHERE Country = 'UK'
 /*List Sales Totals for all Sales Regions (via the Territories table using 4 joins)
 with a Sales Total greater than 1,000,000. Use rounding or FORMAT to present the numbers.*/
 
+SELECT r.RegionID, FORMAT(SUM(od.UnitPrice * (1-od.Discount) * od.Quantity), 'C') "Total Discounted Price"
+FROM [Order Details] od
+INNER JOIN Orders o  ON o.OrderID = od.OrderID
+INNER JOIN EmployeeTerritories e ON o.EmployeeID = e.EmployeeID
+INNER JOIN Territories t  ON e.TerritoryID = t.TerritoryID
+INNER JOIN Region r ON  t.RegionID = r.RegionID
+GROUP BY r.RegionID
+HAVING  (SUM(od.UnitPrice * (1-od.Discount) * od.Quantity)) > 1000000
 
 
 -- ############## 1.7
