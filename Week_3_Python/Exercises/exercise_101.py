@@ -24,27 +24,28 @@
 # #  = input("What's your date of birth? ")
 
 # We can choose between concatenation or format
+def all():
+    print("What is your full name?")
+    my_name = input()
+    print("Nice to meet you {} ".format(my_name))
+    print("What is your eye colour?")
+    eye_colour = input()
+    print("Wow! I'm jealous, I wish I had eyes.")
+    print("What about your hair colour " + my_name + "?")
+    hair_colour = input()
+    print("That's Awesome! I have green hair...I think.")
+    print("So, " + my_name + " what is your favourite food?")
+    favourite_food = input()
+    print("Ah, your favourite food is {} - mine too!".format(favourite_food))
+    print("mmm... " + my_name + ", Which year were you born (yyyy)? ")
+    age = int(input())
+    DOB = int(2020)
+    age_now = str(DOB - age)
+    print("Wow... which means you either are or going to be " + age_now + " this year, right?")
+    yes_no = input()
+    print("Well {}, you don't look a day over 20!".format(my_name))
 
-print("What is your full name?")
-my_name = input()
-print("Nice to meet you {} ".format(my_name))
-print("What is your eye colour?")
-eye_colour = input()
-print("Wow! I'm jealous, I wish I had eyes.")
-print("What about your hair colour " + my_name + "?")
-hair_colour = input()
-print("That's Awesome! I have green hair...I think.")
-print("So, " + my_name + " what is your favourite food?")
-favourite_food = input()
-print("Ah, your favourite food is {} - mine too!".format(favourite_food))
-print("mmm... " + my_name + ", Which year were you born (yyyy)? ")
-age = int(input())
-DOB = int(2020)
-age_now = str(DOB - age)
-print("Wow... which means you either are or going to be " + age_now + " this year, right?")
-yes_no = input()
-print("Well {}, you don't look a day over 20!".format(my_name))
-
+all()
 
 # Program Simplified with a function
 
