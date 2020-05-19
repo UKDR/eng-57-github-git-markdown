@@ -47,7 +47,7 @@ def all():
 
 all()
 
-# Program Simplified with a function
+# Function Simplified
 
 def my_ai():
     name = input("What is your name? ")
