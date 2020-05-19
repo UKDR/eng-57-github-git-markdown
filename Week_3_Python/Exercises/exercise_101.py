@@ -23,9 +23,11 @@
 # age = input("How old are you?   ")
 # #  = input("What's your date of birth? ")
 
+# We can choose between concatenation or format
+
 print("What is your full name?")
 my_name = input()
-print("Nice to meet you " + my_name)
+print("Nice to meet you {} ".format(my_name))
 print("What is your eye colour?")
 eye_colour = input()
 print("Wow! I'm jealous, I wish I had eyes.")
@@ -34,11 +36,29 @@ hair_colour = input()
 print("That's Awesome! I have green hair...I think.")
 print("So, " + my_name + " what is your favourite food?")
 favourite_food = input()
-print("Ah, your favourite food is " + favourite_food + " - mine too!")
+print("Ah, your favourite food is {} - mine too!".format(favourite_food))
 print("mmm... " + my_name + ", Which year were you born (yyyy)? ")
 age = int(input())
 DOB = int(2020)
 age_now = str(DOB - age)
-print("Wow... that means your either are or going to be " + age_now + " this year, right?")
+print("Wow... which means you either are or going to be " + age_now + " this year, right?")
 yes_no = input()
-print("Well " + my_name + ", you don't look a day over 20!")
+print("Well {}, you don't look a day over 20!".format(my_name))
+
+
+# Program Simplified with a function
+
+def my_ai():
+    name = input("What is your name? ")
+    print("Nice to meet you {} ".format(name))
+    eyes = input("What is your eye colour? ")
+    print("Wow! I'm jealous, I wish I had eyes.")
+    hair = input("What about your hair colour {}? ".format(name))
+    print("That's Awesome! I have green hair...I think.")
+    year = int(input("mmm...{}, which year were you born (yyyy)? ".format(name)))
+    birth = int(2020)
+    age_current = str(birth - year)
+    yea_no = input("Wow... which means you either are or going to be {} this year, right? " .format(age_current))
+    print("Well {}, you don't look a day over 20!".format(name))
+
+my_ai()
